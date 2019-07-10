@@ -320,6 +320,7 @@ if(status==1){
 }
 
 void dummy(){
+printf("dummy method is implemented");
 }
 
 
