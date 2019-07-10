@@ -27,6 +27,7 @@ void admin();
 int feezeCal(int,char*);
 int registration();
 void markavg(int sum,int avg,int status);
+void dummy();
 
 int passCount=0;
 char user_name[20];
@@ -316,6 +317,9 @@ if(status==1){
     printf("\nTotalMarks :%d  Avg  :%d  Failed.. \n  \n",sum,avg);
 
     }
+}
+
+void dummy(){
 }
 
 
